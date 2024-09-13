@@ -1,8 +1,79 @@
-h1 { font-family: monospace ; font-size: 16pt; color: rgb(255, 255, 255) }
-li { font-family: 'Gill Sans'; font-size: 11pt; color: rgb(0, 0, 0) }
-td { font-family: 'Gill Sans'; font-size: 11pt; color: rgb(0, 0, 0) }
-ul { font-family: 'Gill Sans'; font-size: 10pt; color:rgb(0, 0, 0)}
-body {background-color :white}
-td {border-color: rgb(130, 130, 130);}
-td {border-width: 0.05  cm;}
-ul {list-style-type: circle}
+html {
+    margin-right:  500px; ;
+    margin-left: 500px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 36pt;
+    color: rgb(0, 0, 0)
+}
+
+li, td, ul {
+    font-family: 'Gill Sans';
+    font-size: 14pt;
+    color: rgb(0, 0, 0)
+}
+
+body {
+    background-color: rgba(252, 255, 172, 0.833)
+}
+
+a:link { color:rgb(158, 100, 0); text-decoration:none; }
+a:visited { color:rgb(17, 0, 255); text-decoration:none; }
+td {
+    border-color: rgb(130, 130, 130);
+}
+
+td {
+    border-width: 0.05 cm;
+}
+
+ul {
+    list-style-type: circle
+}
+
+img {
+    position: absolute;
+    top: 20px;
+    left: 1650px;
+}
+
+table.etude {
+    table-layout: auto;
+    width: 100%;
+    background-color: gold;
+}
+
+table.exppro, table.compinf {
+    table-layout: auto;
+    width: 100%;
+}
+
+
+table.etude, table.exppro, table.compinf {
+    border-collapse: collapse;
+}
+
+div.d_etude, .d_exppro, .d_compinf, .d_divers {
+    border: dashed rgb(233, 140, 0);
+    background-color: gold
+    ;
+}
+
+.couleur1 {
+    background-color:gold ;
+}
+
+.couleur2 {
+    background-color:goldenrod ;
+}
+.couleur3 {
+    background-color: darkgoldenrod;
+}
+.couleur4 {
+    background-color: rgb(139, 102, 8);
+}
